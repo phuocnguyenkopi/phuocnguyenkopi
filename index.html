@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>greenfood</title>
+    <link rel="icon" type="img/2.png" href="/img/icon.png" />
+    <script
+      src="https://kit.fontawesome.com/985cb8e3f8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik:wght@400;500;600;700&family=Smokum&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- phần đâu trang menu logo----------- -->
+    <header>
+      <img class="logo" src="/img/GREENlogo1.png" alt="" />
+
+      <nav class="nav-menu">
+        <ul>
+          <li>
+            <a href="#cach-thuc">Dịch Vụ</a>
+          </li>
+          <li>
+            <a href="/login.html">Đăng nhập</a>
+          </li>
+          <li>
+            <a class="show-modal" href="#dang-ky">Đăng Ký</a>
+          </li>
+          <li class="ten1">
+            <a href="">
+              Liên hệ <span class="an">▼</span> <span class="hie">▲</span></a
+            >
+            <ul class="lever-2">
+              <li><a href="">Tư vấn</a></li>
+              <li><a href="">Hỗ trợ đặt hàng</a></li>
+              <li><a href="">Phản ánh</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <a class="order" href="/giohang.html" target="_blank">
+        <i class="fa-solid fa-calendar-days"></i>
+        Thanh Toán
+      </a>
+    </header>
+
+    <!---------- section 2 bannner nông trại  ------------------ -->
+    <section id="banner-nongtrai">
+      <div class="banner-nongtrai"></div>
+      <div class="text-banner-nongtrai"></div>
+      <div class="left">
+        <button type="button" id="prev" onclick="prev()"><</button>
+      </div>
+      <div class="right">
+        <button type="button" id="next" onclick="next()">></button>
+      </div>
+      <div class="text-banner-center">
+        <h3>Luôn đảm bảo mang đến những sản phẩm chất lương cao</h3>
+        <p>
+          Từ những nông sản tươi xanh được chọn lọc từ các trang trại mỗi ngày
+          luôn tươi và đảm bảo an toàn chất lượng.
+        </p>
+      </div>
+    </section>
+    <section id="gioi-thieu">
+      <div class="gioiThieu-grid">
+        <div class="left-gioi-thieu">
+          <div class="text-gioi-thieu">
+            <h1>GREENFOOD VN những bữa ăn xanh</h1>
+            <p>
+              Chúng tôi tập trung vào chế độ ăn cân bằng được thiết kế chuyên
+              biệt để hỗ trợ bạn kiểm soát cân nặng một cách hiệu quả nhất.GREEN
+              VN là một lựa chọn tối ưu.
+            </p>
+          </div>
+
+          <div class="button-gioi-thieu">
+            <ul>
+              <li>
+                <a class="btn btn-xemThem" href="">Xem Thêm </a>
+              </li>
+              <li><a class="btn btn-login" href="/login.html">Đăng Nhập</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="gioi-thieu-img">
+          <img src="/anhmoi/pexels-fauxel.jpg" alt="meals" />
+        </div>
+      </div>
+    </section>
+
+    <!-------------- section 3 dich vụ--------------------- -->
+    <section id="cach-thuc">
+      <div class="content-title">
+        <h1 class="title-h1">DỊCH VỤ</h1>
+        <div class="trong-3"></div>
+      </div>
+      <div class="grid-cach-thuc">
+        <div class="cach-thuc">
+          <div class="box-icons-3">
+            <i class="icons-3 fa-solid fa-utensils"></i>
+
+            <h4>Nhà Hàng !</h4>
+          </div>
+          <div>
+            <p>
+              Chúng tôi đảm bảo bạn có thể thưởng thức trọn vẹn bữa ăn tại nhà
+              hàng của GREENFOOD.
+            </p>
+            <div class="dat-ban"><a href="#mon-an">Đặt Món ăn</a></div>
+          </div>
+        </div>
+        <div class="cach-thuc">
+          <div class="box-icons-3">
+            <i class="icons-3 fa-solid fa-truck"></i>
+            <h4>Menu tận nhà !</h4>
+          </div>
+          <div>
+            <p>
+              Chúng tôi cung cấp những bữa ăn hay những combo món ăn theo thực
+              đơn của tuần và tháng.
+            </p>
+            <div class="dat-ban"><a href="/thucdon.html">Đặt combo</a></div>
+          </div>
+        </div>
+        <div class="cach-thuc">
+          <div class="box-icons-3">
+            <i class="icons-3 fa-regular fa-rectangle-list"></i>
+
+            <h4>Đặt tiệc !</h4>
+          </div>
+          <div>
+            <p>
+              chúng tôi có đủ không gian cho bạn tận hưởng bữa tiệc và các món
+              ăn tươi sạch.
+            </p>
+            <div class="dat-ban"><a href="">Đặt Tiệc</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------- section 4 món ăn ---------------- -->
+    <section id="mon-an">
+      <div class="mon-an-title">
+        <h1 class="title-h1">Thực Đơn</h1>
+
+        <p>Các món ăn tiêu biểu tuần này</p>
+        <div class="trong-3"></div>
+      </div>
+      <div class="grid-mon-an">
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img src="/monan/BalsamicChickenSalad.jpg" alt="" />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Balsamic Chicken Salad</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"></i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img src="/monan/Cơm gạo lứt + nấm xào rau củ.png" alt="" />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Cơm gạo lứt xào nấm</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href="">
+                  <i class="fa-solid fa-heart"> </i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img src="/monan/Delisa salad.jpg" alt="" />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Delisa Salad</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img src="/monan/hinh-anh-ve-do-an-24.jpg" alt="" />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Thịt BÒ Ốp Lết</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img src="/monan/Trứng cuộn nấm.png" alt="" />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Trứng cuộn nấm</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img
+              src="/monan/foody-healthwich-vietnam-luong-ngoc-quyen-304-636469648064176569.jpg"
+              alt=""
+            />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Sanwich Thịt Gà</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img src="/monan/foody-godiet-salad-thịt bít-tết.jpg" alt="" />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Thịt Bít Tết</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img src="/monan/Salad bơ + đậu gà.png" alt="" />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Salad Bơ Đậu Thịt gà</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img src="/monan/BalsamicChickenSalad.jpg" alt="" />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Balsamic Chicken Salad</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img src="/monan/Cơm gạo lứt + nấm xào rau củ.png" alt="" />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Cơm gạo lứt xào nấm</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href="">
+                  <i class="fa-solid fa-heart"> </i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img src="/monan/Delisa salad.jpg" alt="" />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Delisa Salad</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img src="/monan/hinh-anh-ve-do-an-24.jpg" alt="" />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Thịt BÒ Ốp Lết</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img src="/monan/Trứng cuộn nấm.png" alt="" />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Trứng cuộn nấm</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img
+              src="/monan/foody-healthwich-vietnam-luong-ngoc-quyen-304-636469648064176569.jpg"
+              alt=""
+            />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Sanwich Thịt Gà</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img src="/monan/foody-godiet-salad-thịt bít-tết.jpg" alt="" />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Thịt Bít Tết</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img src="/monan/Salad bơ + đậu gà.png" alt="" />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Salad Bơ Đậu Thịt gà</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img src="/monan/BalsamicChickenSalad.jpg" alt="" />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Balsamic Chicken Salad</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img src="/monan/Cơm gạo lứt + nấm xào rau củ.png" alt="" />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Cơm gạo lứt xào nấm</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href="">
+                  <i class="fa-solid fa-heart"> </i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img src="/monan/Delisa salad.jpg" alt="" />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Delisa salad</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img src="/monan/hinh-anh-ve-do-an-24.jpg" alt="" />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Thịt BÒ Ốp Lết</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img src="/monan/Trứng cuộn nấm.png" alt="" />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Trứng cuộn nấm</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img
+              src="/monan/foody-healthwich-vietnam-luong-ngoc-quyen-304-636469648064176569.jpg"
+              alt=""
+            />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Sanwich Thịt Gà</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img src="/monan/foody-godiet-salad-thịt bít-tết.jpg" alt="" />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Thịt Bít Tết</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cac-mon-an">
+          <a href="/chitiet.html" title="Nhấn xem chi tiết">
+            <img src="/monan/Salad bơ + đậu gà.png" alt="" />
+          </a>
+
+          <div class="text-mon-an">
+            <h4>Salad Bơ Đậu Thịt gà</h4>
+
+            <div class="icon-mon-an">
+              <p>
+                <i class="fa-solid fa-fire" style="color: #ea6c07"> </i
+                ><strong>450</strong> Calories
+              </p>
+              <p>
+                <i class="fa-solid fa-medal" style="color: yellow"></i
+                >NutriScore Ⓡ 74
+              </p>
+              <p>
+                <i class="fa-solid fa-heart" style="color: red"></i>4.6 Rating
+                (201)
+              </p>
+            </div>
+            <div class="price">
+              <p>150.000Đ</p>
+              <p>
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- bảng giá -->
+    <section id="dang-ky">
+      <div id="dang-ky-flex">
+        <div class="dang-ky-container">
+          <div class="dang-ky-text">
+            <h2>Đăng ký</h2>
+            <h3>Chào mừng bạn đến với nhà hàng Greed Food</h3>
+            <p>
+              Bạn có thể đăng ký để nhận các thông tin bữa ăn từ chúng tôi và
+              những thông tin ưu đãi chỉ dành cho những thành viên
+            </p>
+          </div>
+          <form action="">
+            <div>
+              <label for="email">Email : </label>
+              <input type="email" id="email" placeholder="Nhập Email" />
+            </div>
+            <div>
+              <label for="password"> password : </label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Nhập password"
+              />
+            </div>
+            <div>
+              <label for="rel"> Nhập lại Password : </label>
+              <input type="password" id="rel" placeholder="Nhập lại password" />
+            </div>
+            <div>
+              <label for="choose-dang-ky">Bạn biết chúng tôi từ đâu ?</label>
+              <select id="choose-dang-ky">
+                <option value="1">Làm ơn chọn một lựa chọn :</option>
+                <option value="2">Bạn bè và gia đình</option>
+                <option value="">Youtube Video</option>
+                <option value="">Facebook</option>
+                <option value="">khác...</option>
+              </select>
+            </div>
+
+            <div>
+              <button type="submit">Đăng Ký</button>
+            </div>
+          </form>
+        </div>
+        <div class="anh-dang-ky"></div>
+      </div>
+    </section>
+
+    <footer id="fooooter">
+      <div class="footer-logo">
+        <div class="footer-logo-left">
+          <img src="/img/GREENlogo1.png" alt="" />
+        </div>
+        <div class="footer-logo-right">
+          <a
+            href="https://www.facebook.com/phuoc.nguyentan.5203577/ "
+            target="_blank"
+          >
+            <i class="fa-brands fa-facebook" style="color: #0866ff"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa-brands fa-instagram" style="color: #c20fa9"></i>
+          </a>
+          <a href="https://twitter.com/" target="_blank">
+            <i class="fa-brands fa-twitter" style="color: #1d9bf0"></i>
+          </a>
+          <a href="https://www.youtube.com/" target="_blank">
+            <i class="fa-brands fa-youtube" style="color: red"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-text">
+        <div>
+          <h4>CHĂM SÓC KHÁCH HÀNG</h4>
+          <a href="#">Trung Tâm Trợ Giúa</a>
+          <a href="#">greenfood Blog</a>
+          <a href="#">Hướng Dẫn Dat Hàng</a>
+          <a href="#">Chăm Sóc Khách Hàng</a>
+        </div>
+        <div>
+          <h4>Về GreedFood</h4>
+          <a href="#">Giới Thiệu Về greenfood</a>
+          <a href="#">Tuyển Dụng</a>
+          <a href="#">Liên Hệ Với Truyền Thông</a>
+          <a href="#">Chính Sách Bảo Mật</a>
+        </div>
+
+        <div class="thanhtoan">
+          <h4>THANH TOÁN</h4>
+          <div class="thanhtoan-colum">
+            <div class="thanhtoan-row">
+              <div><img src="/footer/MoMo_Logo.png" alt="" /></div>
+              <div><img src="/footer/tải xuống.png" alt="" /></div>
+            </div>
+            <div class="thanhtoan-row">
+              <div><img src="/footer/vietcom.jpg" alt="" /></div>
+
+              <div>
+                <img
+                  src="/footer/Ảnh-chụp-Màn-hình-2018-09-18-lúc-15.52.54.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-input">
+          <label for="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </label>
+
+          <input type="search" id="search" name="search" placeholder="Search" />
+          <div class="address">
+            <div>
+              <strong>Địa chỉ:</strong> KM17, thị trấn Ma Lâm, huyện Hàm Thuận
+              Bắc
+            </div>
+            <div><strong>Liên hệ:</strong> 0827505405</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="food.js"></script>
+  </body>
+</html>

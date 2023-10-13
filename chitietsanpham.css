@@ -1,0 +1,234 @@
+#chitiet-sanpham {
+  background-color: #dbf3cd;
+  padding: 20px 0;
+  /* border-bo: 20px solid rgb(242, 255, 237);
+
+  border-top: 20px solid rgb(242, 255, 237); */
+}
+.chitiet-sanpham-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin: 0 auto;
+  /* border: 1px gray solid; */
+  padding: 40px;
+  background-color: rgb(242, 255, 237);
+  width: 800px;
+  /* backdrop-filter: blur(3px); */
+}
+
+.anh-chitiet-sanpham {
+  position: relative;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+}
+.linkbar {
+  margin: 0;
+}
+
+.anh-cha > img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(20, 91, 0, 0.886);
+}
+.anh-con {
+  position: absolute;
+  bottom: -2px;
+  right: 0;
+}
+.anh-con > img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  /* display: inline-block; */
+  padding: 1px;
+  /* margin: 5px 0; */
+  margin-right: 5px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.anh-con > img:first-child {
+  border: 4px solid green;
+}
+.icon-chitietsanpham {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.thongtin-chitietsanpham h2 {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.icon-chitietsanpham span {
+  margin-left: 3px;
+}
+.icon-chitietsanpham i {
+  font-weight: 900;
+  font-size: 20px;
+
+  margin: 0 2px;
+}
+
+.icon-chitietsanpham a {
+  text-decoration: none;
+  color: blue;
+}
+.thongtin-chitmonan > p {
+  line-height: 25px;
+}
+.thongtin-chitmonan > p > span {
+  display: inline-block;
+  width: 50%;
+}
+.thongtin-chitmonan > p > span:first-child {
+  font-weight: 550;
+}
+.tt-sp-gia {
+  margin: 10px 0;
+  width: 100%;
+  padding: 7px 0;
+  text-align: center;
+  border-radius: 5px;
+  background-color: gray;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.464);
+}
+.tt-sp-btt-mn {
+  margin: 15px 0;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(137, 4, 4);
+  font-size: 20px;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.464);
+}
+.tt-sp-btt-mn:hover,
+.tt-sp-btt-mt:hover {
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+.tt-sp-btt-mn a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.tt-sp-btt-mt {
+  margin-top: 15px 0;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(70, 137, 4);
+  font-size: 20px;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.464);
+}
+.tt-sp-btt-mt a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+#mota-chitiet-sp {
+  /* padding: 100px 150px; */
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.tab-sanpham-chitiet-monan {
+  background-color: #dbf3cd;
+  padding-left: 50px;
+}
+.tab-sanpham-chitiet-monan div {
+  display: inline-block;
+  width: 150px;
+  padding: 10px;
+  border-top: 1px solid rgb(43, 43, 43);
+
+  border-left: 1px solid rgb(43, 43, 43);
+  border-right: 1px solid rgb(43, 43, 43);
+  margin: 0 50px;
+  text-align: center;
+  border-top-left-radius: 10px;
+
+  border-top-right-radius: 10px;
+}
+.tab-sanpham-chitiet-monan div:first-child {
+  background-color: white;
+}
+.noidung-ct-sp {
+  padding: 30px 70px;
+  background-color: rgb(255, 255, 255);
+}
+.noidung-ct-sp h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.noidung-ct-sp ul {
+  margin: 25px 0;
+  line-height: 25px;
+}
+.noidung-ct-sp ul li {
+  padding-top: 10px;
+}
+.noidung-ct-sp ul li span {
+  font-weight: 700;
+}
+.sanphamlq {
+  /* background-color: rgb(79, 77, 77); */
+  background-color: #dbf3cd;
+
+  overflow-y: scroll;
+}
+#mota-chitiet-sp ul {
+  padding-left: 50px;
+}
+.mota-chitiet-sp-anh {
+  text-align: center;
+}
+.mota-chitiet-sp-anh img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.255);
+}
+.tieude-sanphamlq {
+  margin: 50px 10px 20px 10px;
+}
+.mon-an-lienquan {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 25px 0 25px 30px;
+  border-top: 1px solid gray;
+}
+.mon-an-lienquan div {
+  line-height: 25px;
+}
+.mon-an-lienquan img {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.255);
+
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.mon-an-lienquan img:hover {
+  transform: scale(1.1);
+  transition: transform 0.8s;
+}
+.mon-an-lienquan h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.mon-an-lienquan span {
+  font-weight: 700;
+}

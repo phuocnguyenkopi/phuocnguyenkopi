@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.linkbar {
+  border-top: 1px solid rgb(193, 193, 193);
+  border-bottom: 1px solid rgb(193, 193, 193);
+  margin-bottom: 10px;
+  padding-left: 40px;
+
+  background-color: #e6f2e0;
+}
+.linkbar ul li {
+  display: inline-block;
+  padding: 10px 15px;
+}
+.linkbar ul li:nth-child(2),
+.linkbar ul li:nth-child(4) {
+  color: #239f21;
+  font-size: 24px;
+  font-weight: 500;
+}
+.linkbar ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: gray;
+}
+.linkbar ul li a:hover {
+  text-decoration: underline;
+  font-size: 19px;
+  color: rgb(0, 0, 0);
+}
+.container-thanhtoan {
+  display: flex;
+  flex-direction: row;
+}
+caption {
+  height: 50px;
+  line-height: 50px;
+  background-color: #49b447a5;
+  font-size: 30px;
+}
+td img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.363);
+}
+td img:hover {
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+table,
+th,
+td {
+  border-top: 9px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+  padding-left: 30px;
+}
+table {
+  border: 9px solid rgb(255, 255, 255);
+}
+th {
+  text-align: left;
+  height: 50px;
+}
+tr {
+  background-color: #8cd2898e;
+  width: 100%;
+}
+tr td button[type="reset"] {
+  font-size: 40px;
+  padding: 10px;
+  background-color: #d3fdbd;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+table {
+  width: 70%;
+}
+.aside {
+  width: 30%;
+  font-size: 12px;
+}
+aside {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.616)),
+    url(/anhkhuyenmai/24h.jpg) center center/cover;
+  max-height: 65vh;
+  overflow-y: scroll;
+}
+aside > div {
+  width: auto;
+  padding: 20px 10px;
+  color: white;
+}
+
+footer {
+  clear: both;
+}
+
+tbody td:first-child {
+  width: 300px;
+  height: 200px;
+  /* text-align: center; */
+}
+tbody > tr > td > img {
+  width: 75%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+.icon-mon-an i {
+  color: #239f21;
+  margin-right: 10px;
+
+  /* position: relative; */
+  /* top: 5px; */
+}
+.icon-mon-an p {
+  margin-top: 5px;
+}
+input[type="number"] {
+  width: 35px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.29);
+  padding: 3px;
+}
+
+tfoot {
+  background-color: rgb(194, 194, 47);
+  height: 50px;
+  text-align: center;
+}
+tfoot button {
+  font-size: 18px;
+  color: gray;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.dau-nhay {
+  font-size: 30px;
+}
+
+.statr {
+  text-align: center;
+  color: rgb(255, 255, 0);
+}
+.comment-info {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-around;
+}
+.comment-info > div {
+  width: 250px;
+  /* display: inline-block; */
+}
+.comment-info img {
+  width: 60px;
+  height: 60px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.hover-commnet {
+  margin-top: 15px;
+}
+.hover-commnet i {
+  font-size: 24px;
+}
+.hover-commnet i:hover {
+  color: yellow;
+}
+.aside form {
+  padding: 20px;
+  height: 35vh;
+  background-color: #cbf6b6;
+  position: relative;
+}
+.aside label,
+.aside span {
+  font-size: 20px;
+  font-weight: 400;
+}
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #e6fcde95;
+}
+
+textarea:focus {
+  background-color: white;
+}
+.aside input[type="submit"] {
+  font-size: 18px;
+  padding: 15px 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #239f215b;
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+.aside input[type="submit"]:hover {
+  border: 1px solid #239f21;
+  cursor: pointer;
+  background-color: #239f21;
+}
